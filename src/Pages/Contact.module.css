@@ -1,0 +1,95 @@
+
+.contact_section1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+    margin-top: 10rem;
+}
+
+.contact_section1 .call{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 15em;
+    width: 20em;
+    z-index: 1;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+
+}
+ .address{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 15em;
+    width: 20em;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+
+   
+}
+.address .txt1{
+color: black;
+}
+.address .txt2{
+    font-size: 20px;
+    color: maroon;
+    }
+.icon{
+    border-radius: 50%;
+    border: solid 2px maroon;
+    padding: 1em;
+    font-size: 20px;
+    color: black;
+}
+.txt{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.txt p{
+    padding: 0.3em;
+    color: maroon;
+}
+.txt .txt1{
+    color: black;
+}
+
+.txt .txt2{
+    font-size: 20px;
+    
+}
+
+@media (max-width: 600px) {
+    
+    .contact_section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+    .contact_section1 .call{
+        align-items: center;
+        margin-bottom: 2em;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: black 10px 10px 10px ;
+
+    }
+     .address{
+        margin-top: 2em;
+        box-shadow: black 10px 10px 10px ;
+        border-radius: 10px;
+       
+        
+    }
+    
+    
+    
+}

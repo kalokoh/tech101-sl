@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2em;
+    padding-top: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 5em;
+    border: solid 3px #f10ada;
+}
+
+.form input{
+    padding: 0.4em;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 0.5em;
+}
+.form label{
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-bottom: 0.4em;
+    color: black;
+}
+.form button{
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    background-color: #f10ada;
+    color: white;
+    margin-top: 1em;
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.submitted-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.submitted {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    border-radius: 10px;
+  }
+
+.submitted-container button {
+  background-color: #f10ada;
+  text-transform: capitalize;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5em 0em;
+  margin-bottom: 3rem;
+  margin-top: -3rem;
+  width: 15%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+
+.form button:hover{
+    color: #f10ada;
+    background-color: white;
+    border: #f10ada 2px solid;
+}
+.submitted{
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    padding: 1em;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 950px) {
+    .form{
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2em;
+        padding-top: 1em;
+        margin-bottom: 5em;
+        border-radius: 5px;
+    }
+    .submitted{
+        width: 90%;
+    }
+
+    .submitted-container{
+        width: 60%;
+    }
+}
+.form p{
+    color: red;
+    font-size: 15px;
+}
+.form button{
+    border: none;
+}
+
+@media (max-width: 400px) {
+    .form{
+        width: 90%;
+    }
+
+    .message{
+        height: 100px;
+    }
+}

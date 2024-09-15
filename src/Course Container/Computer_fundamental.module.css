@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+.course_details {
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 50%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-top: #f10ada 30px solid;
+  color: black;
+}
+
+.title_container {
+  background: url("../Assets/computer fundamental background cover.jpg");
+  font-family: "PT Sans Narrow", sans-serif;
+  color: white;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.5rem;
+}
+
+.introduction{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  text-align: center;
+  
+}
+
+.course_details p{
+  font-size: larger;
+  margin-top: -0.5rem;
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ table{ 
+  margin-bottom: 3rem;
+  border: 1px solid black;
+  width: 100%;
+  font-size: larger;
+}
+
+.table_title{
+  text-align: center;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
+.topics_container{
+  display: none;
+}
+
+.topics {
+  margin-left: auto;
+  margin-right: auto;
+  border-right: #f10ada 5px solid;
+  border-left: #f10ada 5px solid;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  display: none;
+
+}
+ .topics li{
+  font-size: large;
+  padding: 0.2rem;
+  list-style: none;
+  color: #f10ada;
+  font-weight: bold;
+  
+  
+}
+
+.features_header{
+  margin-top: 5rem;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "PT Sans Narrow", sans-serif;
+
+}
+
+.features{
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 40px;
+  row-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+
+}
+
+.features p{
+  text-align: left;
+  font-size: larger;
+  font-family: "PT Sans Narrow", sans-serif;
+
+
+}
+
+.icon{
+  font-size: 30px;
+  color: #f10ada;
+  margin-bottom: 1rem;
+  transition-duration: 4s;
+}
+
+.icon:hover{
+  rotate: 180deg;
+  font-size: 90px;
+}
+
+
+
+
+
+@media (max-width: 780px){
+  .course_details{
+    font-family: "PT Sans Narrow", sans-serif;
+  width: 90%;
+  
+  }
+
+  .features{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 40px;
+    row-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+  }
+  
+ .course_details {
+  width: 95%;
+ }
+
+}

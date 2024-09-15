@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+.footer-container {
+  height: 140px;
+  width: 100%;
+  background-color: #f10ada;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: white;
+  bottom: 0;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  cursor: pointer;
+  margin-top: -0.2em;
+}
+.footer a {
+  color: white;
+  font-size: 20px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.txt {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.copyright {
+  text-align: center;
+  margin-top: -0.3em;
+}

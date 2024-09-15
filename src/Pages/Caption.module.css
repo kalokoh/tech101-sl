@@ -1,0 +1,69 @@
+.caption_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #f10ada;
+    z-index: 2;
+    height: fit-content;
+  }
+  
+  .btn_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 2;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .btn_container button {
+    font-family: "PT Sans Narrow", sans-serif;
+    width: 85%;
+    color: #f10ada;
+    background-color: white;
+    height: 45px;
+    border: #f10ada solid 2px;
+    font-size: 18px;
+    }
+  
+  .btn_container button:hover{
+    background-color: white;
+    color: #f10ada;
+  }
+  
+  .para {
+    color: white;
+    font-size: 20px;
+    padding: 0.5rem;
+    z-index: 1;
+    font-family: "PT Sans Narrow", sans-serif;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .logo{
+    width: 100px;
+    height: 95px;
+    font-weight: 900;
+    animation-name: logo-animate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  
+  .para2{
+    display: none;
+    z-index: 2;
+  } 
+
+  @keyframes logo-animate {
+      from{
+        transform: rotate(0deg); 
+      }
+
+      to {
+        transform: rotate(360deg)
+      }
+  }

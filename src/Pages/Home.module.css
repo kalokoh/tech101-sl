@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+.banner {
+  top: 0;
+  bottom: 0;
+  height: 80vh;
+  background-size: cover;
+  background-blend-mode: multiply;
+  margin-bottom: 5rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  width: 100%;
+  animation-name: animate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  
+  
+}
+
+@keyframes animate {
+  0%, 100%{
+    background-image: url("../Assets/background_four.jpg");
+    background-size: cover;
+
+  }
+
+  25%{
+    background-image: url("../Assets/background_one.jpg");
+    background-size: cover;
+  }
+
+  50%{
+    background-image: url("../Assets/background_three.png");
+    background-size: cover;
+
+  }
+
+  75%{
+    background-image: url("../Assets/background_two.jpg");
+    background-size: cover;
+
+  }
+
+  
+}
+
+.caption_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 23%;
+  background-color: white;
+  z-index: 2;
+  height: fit-content;
+}
+
+.btn_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 2;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.btn_container button {
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 80%;
+  color: white;
+  background-color: #f10ada;
+  height: 45px;
+  border: #f10ada solid 2px;
+  font-size: 18px;
+}
+
+.btn_container button:hover{
+  background-color: white;
+  color: #f10ada;
+}
+
+.para {
+  color: black;
+  font-size: 20px;
+  padding: 0.5rem;
+  z-index: 1;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+}
+
+.logo{
+  width: 50%;
+  height: 85px;
+  font-weight: 900;
+}
+
+
+.para2{
+  display: none;
+  z-index: 2;
+}
+
+.scroll_container{
+  display: flex;
+  justify-content: right;
+  padding-right: 2rem;
+}
+
+.scroll{
+  font-size: 40px;
+  margin-bottom: 0.5em;
+  padding: 0.2em;
+  cursor: pointer;
+  background-color: #f10ada;
+  color: white;
+  border-radius: 50%;
+  color: white;
+}
+
+
+@media (max-width: 880px) {
+
+  .caption_container{
+    width: 60%;
+  }
+
+  .scroll_container{
+    padding-right: 0rem;
+  }
+
+  .scroll{
+    font-size: 25px;
+    margin-right: 0.2;
+  }
+  .btn_container {
+    width: 100%;
+  }
+
+  .btn_container button {
+    width: 80%;
+  }
+}
+
+/*.banner{
+    background: url('../Assets/business-gb45bde474_1920.jpg');
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 5rem;
+} */
+
+.banner:before{
+    content: "";
+    
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: auto;
+    margin-left: auto;
+    position: absolute;
+    color: white;
+    min-height: 90vh;
+}
+

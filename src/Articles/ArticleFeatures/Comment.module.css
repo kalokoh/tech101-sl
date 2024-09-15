@@ -1,0 +1,59 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;   
+}
+
+.form textarea {
+    border: 1px #1b121a solid;
+    width: 70%;   
+}
+
+.form button {
+    margin-top: 1rem;
+    width: 25%;
+    color: white;
+    background-color: #f10ada;
+    border: 1px #f10ada solid;
+    padding: 0.3rem;
+    margin-right: auto;
+
+}
+
+.form button:hover {
+    margin-top: 1rem;
+    width: 25%;
+    color: #f10ada;
+    background-color: white;
+    border: 1px #f10ada solid;
+    padding: 0.3rem;
+    margin-right: auto;
+
+}
+
+.error_message{
+    color: red;
+    font-size: 15px;
+}
+
+.comment_section{
+    background-color: lightgray;
+    font-size: 10px;
+}
+
+@media (max-width: 600px) {
+    .form button{
+        width: 100%;
+    
+    }
+
+    .form textarea {
+        width: 100%;
+    
+    }
+
+    .form button:hover {
+        width: 100%;
+    
+    }
+}

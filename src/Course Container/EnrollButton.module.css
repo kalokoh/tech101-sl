@@ -1,0 +1,52 @@
+
+
+.btn_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 4rem;
+  }
+  .btn_container button {
+    width: 20%;
+    background-color: #f10ada;
+    height: 50px;
+    margin-top: 0.7rem;
+    border: none;
+    font-size: 20px;
+  }
+
+  .btn_container button:hover{
+    background-color: white;
+  color: #f10ada;
+
+  }
+
+  
+
+  
+  .link{
+    color: white;
+    text-decoration: none;
+  
+  }
+
+  .link:hover{
+    color: white;
+  }
+
+  
+
+  @media (max-width: 780px) {
+    .para {
+      font-size: 25px;
+    }
+  
+    .btn_container {
+      width: 100%;
+    }
+  
+    .btn_container button {
+      width: 80%;
+    }
+  }
